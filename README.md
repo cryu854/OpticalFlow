@@ -1,6 +1,6 @@
 # OpticalFlow
 An example of optical flow using FlowNet 2:
-<div align='center'>
+<div>
     <img src = 'src/flownet2_result.gif' width = '60%' height = '60%'>
 </div>
 
