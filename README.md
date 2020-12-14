@@ -10,4 +10,4 @@ An example of optical flow using four different approaches:
 
 
 ## Usage
-Use [Colab's chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) or provide the ipynb URL at http://colab.research.google.com/github/ to open `main.ipynb` and walkthrough four different approaches.
+Use [Colab's chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) or provide a ipynb URL at http://colab.research.google.com/github/ to open `main.ipynb` and walkthrough four different approaches.
