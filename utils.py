@@ -26,13 +26,18 @@ def visualize_image_on_colab(image_path):
 
 
 def visualize_video_on_colab(video_path):
-    from IPython.display import HTML
-    from base64 import b64encode
-    mp4 = open(video_path,'rb').read()
-    data_url = "data:video/mp4;base64," + b64encode(mp4).decode()
+    from google.colab.patches import cv2_imshow
 
-    HTML("""
-    <video width=400 controls>
-        <source src="%s" type="video/mp4">
-    </video>
-    """ % data_url)
+    cap = cv.VideoCapture(video_path)
+    while cap.isOpened():
+        ret, image = cap.read()
+
+        if not ret:
+            break
+
+        cv2_imshow(image) # Note cv2_imshow, not cv2.imshow
+        
+        cv.waitKey(1) & 0xff
+
+    cv.destroyAllWindows()
+    cap.release()
