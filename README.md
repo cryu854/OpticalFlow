@@ -9,16 +9,11 @@ An example of optical flow using four different approaches:
 | Lucas-Kanade      | [An Iterative Image Registration Technique with an Application to Stereo Vision](http://cseweb.ucsd.edu/classes/sp02/cse252/lucaskanade81.pdf)    | 
 
 
-<div align = 'center'>
-    <video  src = 'src/flownet2_alley1_result.mp4' width = '100%' height = '100%'>
-</div>
-
-
 ## Usage
 Use [Colab's chrome extension](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) or provide a ipynb URL at http://colab.research.google.com/github/ to open `main.ipynb` and walkthrough four different approaches.
 
 
 ## Results on MPI-Sintel
 <div align='center'>
-    <img src = 'src/alley1_result.PNG' width = '600px' height = '540px'>
+    <img src = 'src/alley1_result.PNG' width = '90%' height = '90%'>
 </div>
